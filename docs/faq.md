@@ -106,7 +106,7 @@ Is ksqlDB fully compliant with ANSI SQL?
 ----------------------------------------
 
 ksqlDB uses a dialect inspired by ANSI SQL. It has some differences because
-it's geared at processing streaming data. For example, ANSI SQL has no
+it's geared at processing streaming data. For example, SQL-92 has no
 notion of "windowing" for use cases such as performing aggregations on
 data grouped into 5-minute windows, which is a commonly required
 functionality in the streaming world.
